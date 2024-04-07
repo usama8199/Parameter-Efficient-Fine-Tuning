@@ -5,17 +5,18 @@ In the realm of Natural Language Processing (NLP), large pre-trained models like
 # Project Overview
 The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks and a comprehensive PowerPoint presentation, we delve into:
 
-**Theoretical Background:** Understanding the mechanics behind LoRA, QLoRA, and prompt tuning.
-**Practical Implementation:** Step-by-step guides on applying these techniques for fine-tuning.
+**Theoretical Background:** Understanding the mechanics behind LoRA, QLoRA, and prompt tuning.\
+**Practical Implementation:** Step-by-step guides on applying these techniques for fine-tuning.\
 **Comparative Analysis:** Evaluating the performance and efficiency of PEFT techniques against traditional fine-tuning approaches.
-Repository Structure
-**Parameter-Efficient-Finetuning-Using-Prompt-Tuning.ipynb:** Demonstrates prompt tuning on Llama-2-7B for targeted NLP tasks.
-**Parameter-Efficient-Finetuning-Using-Qlora.ipynb:** Showcases the application of QLoRA for fine-tuning on specific datasets.
-**PEFT.pptx:** A PowerPoint presentation detailing the PEFT concepts, methodologies, and key findings from our experiments.
-Setup and Installation
+Repository Structure\
+**Parameter-Efficient-Finetuning-Using-Prompt-Tuning.ipynb:** Demonstrates prompt tuning on Llama-2-7B for targeted NLP tasks.\
+**Parameter-Efficient-Finetuning-Using-Qlora.ipynb:** Showcases the application of QLoRA for fine-tuning on specific datasets.\
+**PEFT.pptx:** A PowerPoint presentation detailing the PEFT concepts, methodologies, and key findings from our experiments.\
+
+## Setup and Installation
 To replicate our experiments or to utilize these notebooks for your projects, ensure your environment meets the following prerequisites:
 
-Requirements
+**Requirements**\
 Python 3.8+
 PyTorch 1.8+
 Transformers 4.5+
