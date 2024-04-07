@@ -1,0 +1,7 @@
+torch>=1.8,<1.11
+transformers>=4.5,<5.0
+numpy>=1.19
+pandas>=1.2
+accelerate>=0.2.0
+optimum>=1.0
+
