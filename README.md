@@ -2,6 +2,7 @@
 ## Introduction
 In the realm of Natural Language Processing (NLP), large pre-trained models like GPT, BERT, and their derivatives have set new benchmarks for a myriad of tasks. However, the fine-tuning process for these models often involves substantial computational resources and memory, limiting their accessibility and adaptability. This repository introduces and explores Parameter-Efficient Fine-Tuning (PEFT) techniques, specifically Low-Rank Adaptation (LoRA), Quantized Low-Rank Adaptation (QLoRA), and prompt tuning, aimed at mitigating these challenges.
 
+
 # Project Overview
 The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks and a comprehensive PowerPoint presentation, we delve into:
 
@@ -11,7 +12,8 @@ The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA,
 Repository Structure\
 **Parameter-Efficient-Finetuning-Using-Prompt-Tuning.ipynb:** Demonstrates prompt tuning on Llama-2-7B for targeted NLP tasks.\
 **Parameter-Efficient-Finetuning-Using-Qlora.ipynb:** Showcases the application of QLoRA for fine-tuning on specific datasets.\
-**PEFT.pptx:** A PowerPoint presentation detailing the PEFT concepts, methodologies, and key findings from our experiments.
+**PEFT.pptx:** A PowerPoint presentation detailing our experiments' PEFT concepts, methodologies, and key findings.
+**Prototype:** Demonstrated the prototype of LLM Fine-tuning (PEFT) as-a-service where you can upload the data, train multiple models and decide which model to use based on Rouge and BERT scores (Note: The code for this prototype is not included in the repository as the company owns it and cannot be shared publicly.)
 
 ## Setup and Installation
 To replicate our experiments or to utilize these notebooks for your projects, ensure your environment meets the following prerequisites:
