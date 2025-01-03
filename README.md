@@ -12,7 +12,7 @@ The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA,
 Repository Structure\
 **Parameter-Efficient-Finetuning-Using-Prompt-Tuning.ipynb:** Demonstrates prompt tuning on Llama-2-7B for targeted NLP tasks.\
 **Parameter-Efficient-Finetuning-Using-Qlora.ipynb:** Showcases the application of QLoRA for fine-tuning on specific datasets.\
-**PEFT.pptx:** A PowerPoint presentation detailing our experiments' PEFT concepts, methodologies, and key findings.
+**PEFT.pptx:** A PowerPoint presentation detailing our experiments' PEFT concepts, methodologies, and key findings.\
 **Prototype:** Demonstrated the prototype of LLM Fine-tuning (PEFT) as-a-service where you can upload the data, train multiple models and decide which model to use based on Rouge and BERT scores (Note: The code for this prototype is not included in the repository as the company owns it and cannot be shared publicly.)
 
 ## Setup and Installation
