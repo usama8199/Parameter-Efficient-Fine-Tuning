@@ -4,9 +4,9 @@ In the realm of Natural Language Processing (NLP), large pre-trained models like
 
 
 # Project Overview
-The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks and a comprehensive PowerPoint presentation, we delve into:
+The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks, Prototype (private, company owned) and a comprehensive PowerPoint presentation, we delve into:
 
-**Theoretical Background:** Understanding the mechanics behind LoRA, QLoRA, and prompt tuning.\
+**Theoretical Background:** Understanding LoRA, QLoRA, and prompt tuning mechanics.\
 **Practical Implementation:** Step-by-step guides on applying these techniques for fine-tuning.\
 **Comparative Analysis:** Evaluating the performance and efficiency of PEFT techniques against traditional fine-tuning approaches.
 Repository Structure\
