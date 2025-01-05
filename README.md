@@ -1,6 +1,6 @@
 # Parameter-Efficient Fine-Tuning Techniques for Large Language Models
 ## Introduction
-In the realm of Natural Language Processing (NLP), large pre-trained models like GPT, BERT, and their derivatives have set new benchmarks for a myriad of tasks. However, the fine-tuning process for these models often involves substantial computational resources and memory, limiting their accessibility and adaptability. This repository introduces and explores Parameter-Efficient Fine-Tuning (PEFT) techniques, specifically Low-Rank Adaptation (LoRA), Quantized Low-Rank Adaptation (QLoRA), and prompt tuning, aimed at mitigating these challenges.
+In the realm of Natural Language Processing (NLP), large pre-trained models like GPT, BERT, and their derivatives have set new benchmarks for a myriad of tasks. However, the fine-tuning process for these models often involves substantial computational resources and memory, limiting their accessibility and adaptability. This repository introduces and explores [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index) (PEFT) techniques, specifically Low-Rank Adaptation (LoRA), Quantized Low-Rank Adaptation (QLoRA), and prompt tuning, aimed at mitigating these challenges.
 
 
 # Project Overview
