@@ -1,13 +1,13 @@
 # Parameter-Efficient Fine-Tuning Techniques for Large Language Models
 ## Introduction
-In the realm of Natural Language Processing (NLP), large pre-trained models like GPT, BERT, and their derivatives have set new benchmarks for a myriad of tasks. However, the fine-tuning process for these models often involves substantial computational resources and memory, limiting their accessibility and adaptability. This repository introduces and explores [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index) (PEFT) techniques, specifically Low-Rank Adaptation (LoRA), Quantized Low-Rank Adaptation (QLoRA), and prompt tuning, aimed at mitigating these challenges.
+In the realm of Natural Language Processing (NLP), large pre-trained models like GPT, BERT, and their derivatives have set new benchmarks for a myriad of tasks. However, the fine-tuning process for these models often involves substantial computational resources and memory, limiting their accessibility and adaptability. This repository introduces and explores [Parameter-Efficient Fine-Tuning](https://huggingface.co/docs/peft/en/index) (PEFT) techniques, specifically [Low-Rank Adaptation](https://huggingface.co/docs/peft/en/developer_guides/lora) (LoRA), Quantized Low-Rank Adaptation (QLoRA), and [prompt tuning](https://huggingface.co/docs/peft/en/package_reference/prompt_tuning), aimed at mitigating these challenges.
 
 
 # Project Overview
-The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks, Prototype (private, company owned) and a comprehensive PowerPoint presentation, we delve into:
+The primary focus of this project is to demonstrate the efficacy of LoRA, QLoRA, and prompt tuning techniques in adapting large language models like Llama-2-7B for specific tasks with minimal computational overhead. Through detailed Jupyter notebooks, Prototype (private, company-owned) and a comprehensive PowerPoint presentation, we delve into:
 
 **Theoretical Background:** Understanding LoRA, QLoRA, and prompt tuning mechanics.\
-**Practical Implementation:** Step-by-step guides on applying these techniques for fine-tuning.\
+**Practical Implementation:** Step-by-step guides on applying these techniques using [adapters](https://huggingface.co/docs/peft/en/developer_guides/low_level_api) and fine-tuning.\
 **Comparative Analysis:** Evaluating the performance and efficiency of PEFT techniques against traditional fine-tuning approaches.
 Repository Structure\
 **Parameter-Efficient-Finetuning-Using-Prompt-Tuning.ipynb:** Demonstrates prompt tuning on Llama-2-7B for targeted NLP tasks.\
