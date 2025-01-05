@@ -37,11 +37,12 @@ pip install -r requirements.txt
 Navigate to the notebook of interest and follow the instructions within to apply PEFT techniques to your models. The notebooks are designed to be self-explanatory, guiding you through each step of the process, from data preparation to model evaluation.
 
 ## Results and Discussion
-Our findings suggest that LoRA and QLoRA significantly reduce the computational and memory footprint of fine-tuning large language models, without compromising on model performance. Prompt tuning further enables task-specific model adaptation with minimal parameter updates. Key results and visualizations can be found within each notebook and the accompanying presentation.
+Our findings suggest that LoRA and QLoRA significantly reduce the computational and memory footprint of fine-tuning large language models, without compromising on model performance. Prompt tuning further enables task-specific model adaptation with minimal parameter updates. Key results and visualizations are found in each notebook and the accompanying presentation.
 
 ## Conclusion
-This project underscores the potential of Parameter-Efficient Fine-Tuning techniques as viable alternatives to traditional model fine-tuning approaches, especially in resource-constrained environments. By leveraging LoRA, QLoRA, and prompt tuning, we demonstrate that it is possible to maintain or even enhance model performance on specific tasks while substantially reducing the required computational resources.
+This project underscores the potential of Parameter-Efficient Fine-Tuning techniques as viable alternatives to traditional model fine-tuning approaches, especially in resource-constrained environments. By leveraging LoRA, QLoRA, and prompt tuning, we demonstrate that it can maintain or even enhance model performance on specific tasks while substantially reducing the required computational resources.
 
 ## References
-LoRA: Low-Rank Adaptation of Large Language Models
-Prompt Tuning: Eliciting Knowledge from Language Models with Optimally Sparse Prompts
+[LoRA](https://arxiv.org/pdf/2305.14314): Low-Rank Adaptation of Large Language Models [code ref](https://huggingface.co/docs/peft/en/developer_guides/lora) \
+[Prompt Tuning](https://arxiv.org/pdf/2104.08691): Eliciting Knowledge from Language Models with Optimally Sparse Prompts [code ref](https://huggingface.co/docs/peft/en/package_reference/prompt_tuning)
+
